@@ -8,7 +8,7 @@ import (
 
 	"../config"
 
-	"../gui"                             // gui版
+	//"../gui"                             // gui版
 	"../web"                             // web版
 	"github.com/henrylee2cn/pholcus/cmd" // cmd版
 )
@@ -18,8 +18,8 @@ func run(which string) {
 
 	// 选择运行界面
 	switch which {
-	case "gui":
-		gui.Run()
+	//case "gui":
+	//gui.Run()
 
 	case "cmd":
 		cmd.Run()

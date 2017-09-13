@@ -10,7 +10,7 @@ import (
 	"../config"
 	"../web"
 	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/cmd"
+	//"github.com/henrylee2cn/pholcus/cmd"
 	"github.com/henrylee2cn/pholcus/common/gc"
 	"github.com/henrylee2cn/pholcus/runtime/cache"
 	"github.com/henrylee2cn/pholcus/runtime/status"
@@ -46,7 +46,7 @@ func DefaultRun(uiDefault string) {
 	uiflag = flag.String("_ui", uiDefault, "   <选择操作界面> [web] [gui] [cmd]")
 	flagCommon()
 	web.Flag()
-	cmd.Flag()
+	//cmd.Flag()
 	flag.String("z", "", "README:   参数设置参考 [xxx] 提示，参数中包含多个值时以 \",\" 间隔。\r\n")
 	flag.Parse()
 	writeFlag()

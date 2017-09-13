@@ -9,8 +9,8 @@ import (
 	"../config"
 
 	//"../gui"                             // gui版
-	"../web"                             // web版
-	"github.com/henrylee2cn/pholcus/cmd" // cmd版
+	"../web" // web版
+	//"github.com/henrylee2cn/pholcus/cmd" // cmd版
 )
 
 func run(which string) {
@@ -21,8 +21,8 @@ func run(which string) {
 	//case "gui":
 	//gui.Run()
 
-	case "cmd":
-		cmd.Run()
+	//case "cmd":
+	//cmd.Run()
 
 	case "web":
 		fallthrough

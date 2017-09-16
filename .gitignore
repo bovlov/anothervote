@@ -33,3 +33,9 @@ pholcus_pkg/file_out
 pholcus_pkg/history
 pholcus_pkg/logs
 pholcus_pkg/text_out
+anothervote
+anothervote_pkg/cache
+anothervote_pkg/file_out
+anothervote_pkg/history
+anothervote_pkg/logs
+anothervote_pkg/text_out

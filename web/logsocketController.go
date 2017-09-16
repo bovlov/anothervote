@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	ws "github.com/henrylee2cn/pholcus/common/websocket"
-	"github.com/henrylee2cn/pholcus/logs"
+	ws "github.com/bovlov/anothervote/common/websocket"
+	"github.com/bovlov/anothervote/logs"
 )
 
 // send log api

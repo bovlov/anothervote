@@ -3,13 +3,13 @@ package web
 import (
 	"sync"
 
-	"../config"
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/common/util"
-	ws "github.com/henrylee2cn/pholcus/common/websocket"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/bovlov/anothervote/app"
+	"github.com/bovlov/anothervote/app/spider"
+	"github.com/bovlov/anothervote/common/util"
+	ws "github.com/bovlov/anothervote/common/websocket"
+	"github.com/bovlov/anothervote/config"
+	"github.com/bovlov/anothervote/logs"
+	"github.com/bovlov/anothervote/runtime/status"
 )
 
 type SocketController struct {

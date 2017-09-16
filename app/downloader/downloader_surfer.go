@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/bovlov/anothervote/app/downloader/request"
+	"github.com/bovlov/anothervote/app/downloader/surfer"
+	"github.com/bovlov/anothervote/app/spider"
+	"github.com/bovlov/anothervote/config"
 )
 
 type Surfer struct {

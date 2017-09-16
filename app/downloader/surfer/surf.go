@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer/agent"
+	"github.com/bovlov/anothervote/app/downloader/surfer/agent"
 )
 
 // Default is the default Download implementation.

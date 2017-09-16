@@ -2,7 +2,7 @@ package distribute
 
 import (
 	"encoding/json"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/bovlov/anothervote/logs"
 	"github.com/henrylee2cn/teleport"
 )
 

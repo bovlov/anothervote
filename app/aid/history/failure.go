@@ -7,11 +7,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/bovlov/anothervote/app/downloader/request"
+	"github.com/bovlov/anothervote/common/mgo"
+	"github.com/bovlov/anothervote/common/mysql"
+	"github.com/bovlov/anothervote/common/pool"
+	"github.com/bovlov/anothervote/config"
 )
 
 type Failure struct {
@@ -55,6 +55,7 @@ func (self *Failure) flush(provider string) (fLen int, err error) {
 	fLen = len(self.list)
 
 	switch provider {
+
 	case "mgo":
 		if mgo.Error() != nil {
 			err = fmt.Errorf(" *     Fail  [添加失败记录][mgo]: %v 条 [ERROR]  %v\n", fLen, mgo.Error())

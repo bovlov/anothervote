@@ -14,11 +14,11 @@ import (
 
 	"golang.org/x/net/html/charset"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector/data"
-	"github.com/henrylee2cn/pholcus/common/goquery"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/bovlov/anothervote/app/downloader/request"
+	"github.com/bovlov/anothervote/app/pipeline/collector/data"
+	"github.com/bovlov/anothervote/common/goquery"
+	"github.com/bovlov/anothervote/common/util"
+	"github.com/bovlov/anothervote/logs"
 )
 
 type Context struct {

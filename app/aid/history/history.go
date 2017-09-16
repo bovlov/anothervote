@@ -8,13 +8,13 @@ import (
 
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/bovlov/anothervote/app/downloader/request"
+	"github.com/bovlov/anothervote/common/mgo"
+	"github.com/bovlov/anothervote/common/mysql"
+	"github.com/bovlov/anothervote/common/pool"
+	"github.com/bovlov/anothervote/common/util"
+	"github.com/bovlov/anothervote/config"
+	"github.com/bovlov/anothervote/logs"
 )
 
 type (
@@ -99,6 +99,7 @@ func (self *History) ReadSuccess(provider string, inherit bool) {
 	}
 
 	switch provider {
+
 	case "mgo":
 		var docs = map[string]interface{}{}
 		err := mgo.Mgo(&docs, "find", map[string]interface{}{

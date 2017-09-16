@@ -3,11 +3,11 @@ package pipeline
 import (
 	"sort"
 
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector"
-	"github.com/henrylee2cn/pholcus/common/kafka"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"github.com/bovlov/anothervote/app/pipeline/collector"
+	//"github.com/bovlov/anothervote/common/kafka"
+	"github.com/bovlov/anothervote/common/mgo"
+	"github.com/bovlov/anothervote/common/mysql"
+	"github.com/bovlov/anothervote/runtime/cache"
 )
 
 // 初始化输出方式列表collector.DataOutputLib
@@ -25,7 +25,7 @@ func RefreshOutput() {
 		mgo.Refresh()
 	case "mysql":
 		mysql.Refresh()
-	case "kafka":
-		kafka.Refresh()
+		//case "kafka":
+		//kafka.Refresh()
 	}
 }

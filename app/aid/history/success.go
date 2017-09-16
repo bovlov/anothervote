@@ -6,9 +6,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/config"
+	"github.com/bovlov/anothervote/common/mgo"
+	"github.com/bovlov/anothervote/common/mysql"
+	"github.com/bovlov/anothervote/config"
 )
 
 type Success struct {

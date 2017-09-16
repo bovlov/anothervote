@@ -9,8 +9,8 @@ import (
 
 	"github.com/robertkrimen/otto"
 
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/bovlov/anothervote/config"
+	"github.com/bovlov/anothervote/logs"
 )
 
 // 蜘蛛规则解释器模型

@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"../config"
-	"../web"
-	"github.com/henrylee2cn/pholcus/app"
-	//"github.com/henrylee2cn/pholcus/cmd"
-	"github.com/henrylee2cn/pholcus/common/gc"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"github.com/bovlov/anothervote/app"
+	"github.com/bovlov/anothervote/config"
+	"github.com/bovlov/anothervote/web"
+	//"github.com/bovlov/anothervote/cmd"
+	"github.com/bovlov/anothervote/common/gc"
+	"github.com/bovlov/anothervote/runtime/cache"
+	"github.com/bovlov/anothervote/runtime/status"
 )
 
 var (

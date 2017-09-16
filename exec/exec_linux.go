@@ -5,10 +5,10 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"../config"
+	"github.com/bovlov/anothervote/config"
 
-	"../web"                             // web版
-	"github.com/henrylee2cn/pholcus/cmd" // cmd版
+	"github.com/bovlov/anothervote/cmd" // cmd版
+	"github.com/bovlov/anothervote/web" // web版
 )
 
 func run(which string) {

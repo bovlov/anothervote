@@ -8,9 +8,9 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"github.com/bovlov/anothervote/common/util"
+	"github.com/bovlov/anothervote/config"
+	"github.com/bovlov/anothervote/logs"
 )
 
 /************************ Mysql 输出 ***************************/

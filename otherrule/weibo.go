@@ -2,11 +2,11 @@ package otherrule
 
 // 基础包
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader/request" //必需
-	. "github.com/henrylee2cn/pholcus/app/spider"           //必需
-	. "github.com/henrylee2cn/pholcus/app/spider/common"    //选用
-	"github.com/henrylee2cn/pholcus/common/goquery"         //DOM解析
-	"github.com/henrylee2cn/pholcus/logs"                   //信息输出
+	"github.com/bovlov/anothervote/app/downloader/request" //必需
+	. "github.com/bovlov/anothervote/app/spider"           //必需
+	. "github.com/bovlov/anothervote/app/spider/common"    //选用
+	"github.com/bovlov/anothervote/common/goquery"         //DOM解析
+	"github.com/bovlov/anothervote/logs"                   //信息输出
 
 	// net包
 	"net/http" //设置http.Header

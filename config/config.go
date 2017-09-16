@@ -9,7 +9,7 @@ import (
 
 // 软件信息。
 const (
-	VERSION   string = "v1.2.0"                                      // 软件版本号
+	VERSION   string = "v1.3.1"                                      // 软件版本号
 	AUTHOR    string = "another"                                     // 软件作者
 	NAME      string = "anothervote"                                 // 软件名
 	FULL_NAME string = NAME + "_" + VERSION + " （by " + AUTHOR + "）" // 软件全称

@@ -27,13 +27,8 @@ _testmain.go
 *.sublime-project
 *.sublime-workspace
 
-pholcus
-pholcus_pkg/cache
-pholcus_pkg/file_out
-pholcus_pkg/history
-pholcus_pkg/logs
-pholcus_pkg/text_out
 anothervote
+anothervote_pkg
 anothervote_pkg/cache
 anothervote_pkg/file_out
 anothervote_pkg/history

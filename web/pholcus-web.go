@@ -81,3 +81,20 @@ func appInit() {
 		return spmenu
 	}()
 }
+
+/*
+下载两个Golang的第三方包
+go get github.com/jteeuwen/go-bindata/...
+go get github.com/elazarl/go-bindata-assetfs/...
+
+
+使用 “go install” 命令编译获得 go-bindata-assetfs.exe 文件
+
+执行 “go-bindata-assetfs.exe views/...” 将./views目录下所有文件写入 bindata_assetfs.go 文件
+
+bindata_assetfs.go文件中提供了名为 assetFS() 的函数，它返回包含了view文件内容的 http.Filesystem 接口实例
+
+以静态文件路由为例，调用方式为：
+
+http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(assetFS)))
+*/

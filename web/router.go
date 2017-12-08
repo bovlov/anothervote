@@ -21,6 +21,6 @@ func Router() {
 	http.HandleFunc("/", web)
 	//static file server
 
-	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(assetFS())))
-	//http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("web/views/"))))
+	//http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(assetFS())))
+	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("web/views/"))))
 }

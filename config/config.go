@@ -9,11 +9,11 @@ import (
 
 // 软件信息。
 const (
-	VERSION   string = "v1.3.1"                                      // 软件版本号
-	AUTHOR    string = "another"                                     // 软件作者
-	NAME      string = "anothervote"                                 // 软件名
-	FULL_NAME string = NAME + "_" + VERSION + " （by " + AUTHOR + "）" // 软件全称
-	TAG       string = "anothervote"                                 // 软件标识符
+	VERSION   string = "v1.3.1"                    // 软件版本号
+	AUTHOR    string = "another"                   // 软件作者
+	NAME      string = "anothervote"               // 软件名
+	FULL_NAME string = NAME + " (" + VERSION + ")" // 软件全称
+	TAG       string = "anothervote"               // 软件标识符
 	ICON_PNG  string = `AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD+/v8y/Pz8Mv39/TL9/fwy//7+Mv7+/zL9/v4y+/z8Mvv7/DL7/Pwy/f7+Mv7//jL+//4y/v7+Mv39/TL7+/sy+/38/8zLxv/Hycb/y87N/9HU0//g4uD/09LM/7mzpv+8uKz/vLiv/766s/+/u7X/1NPR//7+/v////////////n27v+0bwb/tm4B/7RsBP+1dxr/o2YM/7+MPf/RpGD/0KVi/8+jYP/MoVj/zJ9U/55rIv/v8e///v7+///////49uz/vHEB/71yAP+8cQL/172K/86GDP/X18///f78//3+/P/7/vz/+v36/826l/+sagr/p5V7//3+/P//////9vTq/7xxAf+9cgD/u3IA/7tyA//LgQn/4d/b//////////////////z++//19u//7ere/6p7Of/8/fv///////by6f+7cQH/vXIA/71xAP+8cgD/xn0J/+rp6P/////////////////+//7//P78/7aGPf+pbRf/0s/K//7+/v/18Of/vHEB/71yAP+9cgD/u3IA/795Cf/19PT///////////////////////z+/v/5/fn/4Mec/8Ovkf/+/v7/9PDl/71xAP+9cgD/vXIA/7xyAf+8eQ//+/v8///////////////////////9/v7/v6N0/6htFf+okGv//v7+//Lw4/+7cgP/vHIC/7xxA/+8cQP/tG8H/7ixpf/9/v3//v7+//7+/v/+/v7//v7+//z59P/08eb/qXkw//f5+P/6+/j/8ejW//Pr3P/17+P/9/Pn/+7n0/+gbSb/3uDd/97b1P++tav/vbWs/721rf++ta3/vrer/8CQSP/4/fr////////////////////////////+/v7/4Meb/5+BWf/hzqn/sXMW/9GlXv/RpF7/0aNe/9KjXv/p28D/+/77//////////////////////////////////r9+v+ygjX/1tXS/6Z1Lf/y8/L////////////////////////////////////////////////////////////9/v3/38Wb/7Wigv/NpGH/09DM//7+/v////////////////////////////////////////////////////////////Hm0/+2lmH/1axr/93Wz//+/v7////////////////////////////////////////////////////////////n1rj/qXUs/8GQRf/6+/n/////////////////////////////////////////////////////////////////+vn0/+XSsP/18OX//v79//////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==`
 	DESC      string = "another vote 您的专业投票助手"
 )
